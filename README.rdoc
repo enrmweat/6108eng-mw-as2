@@ -260,6 +260,9 @@ vendor
   subdirectory. If the app has frozen rails, those gems also go here, under
   vendor/rails/. This directory is in the load path.
 
+
+  
+
   Website
     This website has been created for the Oval Ski Club, it provides such information 
     as information about the club, the services they provide, their prices and information
