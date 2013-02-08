@@ -41,11 +41,11 @@
             <span class="icon-bar"></span>
           </a>
           <!-- this is my main section within the navbar, it contains all the page navigation links -->
-          <a class="brand" href="index" title="Return to Home Page">Oval Ski Club</a>
+          <a class="brand" href="../welcome/index" title="Return to Home Page">Oval Ski Club</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="index" accesskey="h" title="Home Page"><i class="icon-home icon-inverse"></i><em>H</em>ome</a></li>
-              <li><a href="about" accesskey="a" title="About us"><em>A</em>bout</a></li>
+              <li class="active"><a href="../welcome/index" accesskey="h" title="Home Page"><i class="icon-home icon-inverse"></i><em>H</em>ome</a></li>
+              <li><a href="../welcome/about" accesskey="a" title="About us"><em>A</em>bout</a></li>
                <!--<li><a href="contact" accesskey="1" title="Contact Us" >Get In Touch!</a></li> -->
               <li><a class="active" href="../newevents" title="Social Events & Club Holiday" accesskey="s">Get <em>S</em>ocial!</a></li>
             
@@ -54,15 +54,15 @@
                <li class="dropdown">
                 <a  href="#" class="dropdown-toggle" data-toggle="dropdown" accesskey="i" title="FAQ & Information">FAQ & <em>I</em>nformation <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><a href="faq" accesskey="q" title="FAQ Page" >FA<em>Q</em>s</a></li>
-                  <li><a href="clubsessions" title="Information on the sessions we run!" accesskey="c"><em>C</em>lub Sessions</a></li>
-                  <li><a href="racingteam" title="Our superb racing team!" accesskey="o"><em>O</em>ur Racing Team</a></li>
+                  <li><a href="../welcome/faq" accesskey="q" title="FAQ Page" >FA<em>Q</em>s</a></li>
+                  <li><a href="../welcome/clubsessions" title="Information on the sessions we run!" accesskey="c"><em>C</em>lub Sessions</a></li>
+                  <li><a href="../welcome/racingteam" title="Our superb racing team!" accesskey="o"><em>O</em>ur Racing Team</a></li>
                   <li class="divider"></li>
-                  <li><a href="accesskeyinfo" title="information on how to use access keys" accesskey="l"><em>L</em>ist of Access Keys</a></li>
+                  <li><a href="../welcome/accesskeyinfo" title="information on how to use access keys" accesskey="l"><em>L</em>ist of Access Keys</a></li>
                   </ul>
             </ul>
             <!-- this displays the sign in sction on the right hand side of the navbar -->
-            <form class="navbar-form pull-right" action="index">
+            <form class="navbar-form pull-right" action="../welcome/index">
               <input class="span2" type="text" title="Please Enter Your Email Address" placeholder="Email">
               <input class="span2" type="password" title="Please Enter Your Password" placeholder="Password">
               <button <input type="submit" value="Submit" title="Sign In">Sign in</button>
@@ -81,12 +81,12 @@
         <h1>Welcome to Oval Ski Club!</h1>
         <p>Located in Bebington on the Wirral, We offer skiing tuition for all ages, an active social club promoting various events through out the year, and also a Ski Racing Team which all members are welcome to join. We are ideally located for the Wirral, Cheshire, Liverpool and Merseyside areas.
         </p>
-        <p><a class="btn btn-primary btn-large" href="about" title="About Us">More Information &raquo;</a></p>
+        <p><a class="btn btn-primary btn-large" href="../welcome/about" title="About Us">More Information &raquo;</a></p>
       </div>
 
       <div class="span4 pull-right" style="max-height:700px; overflow-y:scroll;">
       <h3>Upcoming Social Events</h3>
-      <p> For more information about these events, please see the <a href="club_holiday" title="More information on social events"> Social Events page.</a></p>
+      <p> For more information about these events, please see the <a href="../newevents" title="More information on social events"> Social Events page.</a></p>
 
          <i class="icon-calendar"></i>
             <strong>Sunday 18/11/12</strong>
@@ -146,12 +146,12 @@
           <p>
             
 
-          <p><a class="btn btn-primary btn-small" href="clubsessions" title="View Session Information">Click here for more info &raquo;</a></p>
+          <p><a class="btn btn-primary btn-small" href="../welcome/clubsessions" title="View Session Information">Click here for more info &raquo;</a></p>
        </div>
         <div class="span7">
           <h2>Interested in a Club that sends its members on holiday? Look no further!</h2>
           <p>Each season the club organises a holiday to one of the popular resorts in Europe. The holiday is arranged over the Easter break making it available to all club members. The group size varies each year, based on flight availability and what the demand is expected to be, and can be anything from 50 - 100 people. Details of this seasons holiday can be found by clicking the following link!</p>
-          <p><a class="btn btn-primary btn-small" href="../newevents/clubevents" title="Holiday Info">Club Holiday Info! &raquo;</a></p>
+          <p><a class="btn btn-primary btn-small" href="../newevents" title="Holiday Info">Club Holiday Info! &raquo;</a></p>
 
             <%= yield %>
         </div>

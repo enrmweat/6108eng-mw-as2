@@ -1,10 +1,8 @@
 Assignment2::Application.routes.draw do
   
- 
-  
+root :to => 'welcome#index'
 
-
-  resources :diaries
+ resources :diaries
 
 
  get 'welcome/index'
@@ -23,9 +21,7 @@ Assignment2::Application.routes.draw do
 
  get 'newevents/clubevents'
 
- #get 'diaries/application'
-
-
+ 
 resources :newevents
 
 end
