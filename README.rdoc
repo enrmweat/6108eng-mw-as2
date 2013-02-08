@@ -261,9 +261,7 @@ vendor
   vendor/rails/. This directory is in the load path.
 
 
-  
-
-  Website
+  WEBSITE
     This website has been created for the Oval Ski Club, it provides such information 
     as information about the club, the services they provide, their prices and information
     about any holidays there may be with the club and any events they are holding.
