@@ -259,3 +259,18 @@ vendor
   External libraries that the application depends on. Also includes the plugins
   subdirectory. If the app has frozen rails, those gems also go here, under
   vendor/rails/. This directory is in the load path.
+
+  Website
+    This website has been created for the Oval Ski Club, it provides such information 
+    as information about the club, the services they provide, their prices and information
+    about any holidays there may be with the club and any events they are holding.
+    The website consists of 8 pages, 6 of which are static pages and 2 which contain dynamic
+    content created using Ruby on Rails
+    These pages are:
+    Home: located at welcome/index - provides an introduction to the website and provides basic overview detals
+    About: located at welcome/about - Provides information on the people who work at the club, and ways to contact them
+    Social Page: - located at events/clubevents - this page provies all the information about club holidays and also contains the dynamic content for the website, by clicking the links and buttons provided, events and diary entries can be made, viewed, deleted and edited.
+    FAQ: located at welcome/faq - This pages provides questions and answers to may general questions a visitor may have
+    Club Sessions: located at welcome/clubsessions - this page gives an overview of the lessons and sessions the club provides, along with pricing and dating information
+    Racing Team: located at welcome/racingteam - This page gives an overview of the clubs racing team, and gives information on how members can join this team
+    Access Keys Information: located at welcome/accesskeyinfo - this page contains instructions on how to use the access keys that are present within the website.
